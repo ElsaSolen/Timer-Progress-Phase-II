@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-display',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./display.component.scss'],
 })
 export class DisplayComponent implements OnInit {
+  @Input() time: number = null;
+
   constructor() {}
 
   ngOnInit(): void {}

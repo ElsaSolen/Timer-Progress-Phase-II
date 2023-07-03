@@ -1,1 +1,7 @@
-<p>timer works</p>
+<div class="timer">
+  <app-progress-bar [progress]="(init-counter)/init*100"></app-progress-bar>
+
+  <app-display [time]="counter"></app-display>
+
+  <button (click)="startCountdown()">RESTART</button>
+</div>
