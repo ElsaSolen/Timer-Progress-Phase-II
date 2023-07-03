@@ -10,4 +10,6 @@
 - Change detection strategies: onDefault/onPush.
 - Shadow DOM & ViewEncapsulation.
 
+Version 0.0.1
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/my-angular-starter-rdobkp)
