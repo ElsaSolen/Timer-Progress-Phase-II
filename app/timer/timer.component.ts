@@ -7,7 +7,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class TimerComponent implements OnInit {
   @Input() init = 20;
-  //@Output() onDecrease = new EventEmitter<number>();
   @Output() onComplete = new EventEmitter<void>();
 
   private countdownTimerRef: any = null;
@@ -47,7 +46,6 @@ export class TimerComponent implements OnInit {
     this.countdownTimerRef = setTimeout(() => {
       this.counter -= 1;
       this.processCountdown();
-      //this.onDecrease.emit(this.counter);
     }, 1000);
   }
 

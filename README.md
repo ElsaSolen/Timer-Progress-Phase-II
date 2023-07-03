@@ -3,6 +3,8 @@
 **Goal of this project is to implement:**
 
 - Container/Presentational pattern.
+  - Timer Component is a Container.
+  - Prgress bar and display components are Presentational.
 - Add services.
 - Providers at Component & module level.
 - Observables, Subjects & BehaviourSubjects.
