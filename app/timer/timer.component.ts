@@ -6,7 +6,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./timer.component.scss'],
 })
 export class TimerComponent implements OnInit {
-  @Input() init = 20;
+  @Input() init = 0;
   @Output() onComplete = new EventEmitter<void>();
 
   private countdownTimerRef: any = null;
